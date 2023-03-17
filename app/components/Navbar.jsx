@@ -10,7 +10,7 @@ function Navbar() {
   const style = { color: '#202023' }
 
   return (
-    <nav>
+    <nav className='fixed'>
       <div className='flex items-center justify-between px-5 pt-4 pb-2 max-w-6xl mx-auto'>
         <div>
           <Link href='/' className='text-2xl font-bold p-4'>
