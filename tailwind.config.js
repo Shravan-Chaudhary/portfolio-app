@@ -16,6 +16,8 @@ module.exports = {
         sunlight: '#FBD38D',
         purple: '#6B46C1',
         teal: '#88CCCA',
+        blue: '#2D3748',
+        'light-gray': '#313134',
       },
       backgroundImage: {
         stars: "url('./assests/Stars.svg')",
