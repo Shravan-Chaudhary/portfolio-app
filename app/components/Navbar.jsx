@@ -18,23 +18,32 @@ function Navbar() {
 
   return (
     <>
-      <nav className=' fixed flex-wrap top-0 left-0 right-0 z-10 flex bg-dark-bg items-center justify-between px-5 pt-3 pb-2 max-w-4xl mx-auto'>
+      <nav className=' fixed flex-wrap top-0 left-0 right-0 z-10 flex backdrop-blur-sm items-center justify-between px-5 pt-3 pb-2 max-w-4xl mx-auto'>
         <div>
-          <Link href='/' className='text-2xl font-bold p-4'>
+          <Link href='/' className='text-2xl font-bold drop-shadow-lg p-4'>
             Shravan
           </Link>
         </div>
 
         <div className=' flex space-x-8'>
-          <div className='hidden md:inline-flex items-center space-x-8 text-xl'>
-            <Link href='/' className='hover:underline '>
-              Home
+          <div className='hidden md:inline-flex items-center space-x-6 text-xl'>
+            <Link
+              href='/skills'
+              className='hover:underline focus:bg-teal p-2 rounded-md focus:text-dark-bg '
+            >
+              Skills
             </Link>
             <Link
               href='/projects'
               className='hover:underline focus:bg-teal p-2 rounded-md focus:text-dark-bg'
             >
               Projects
+            </Link>
+            <Link
+              href='/projects'
+              className='hover:underline focus:bg-teal p-2 rounded-md focus:text-dark-bg'
+            >
+              Contact
             </Link>
           </div>
           <div className='space-x-3'>
