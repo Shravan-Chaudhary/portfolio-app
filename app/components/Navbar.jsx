@@ -65,18 +65,21 @@ function Navbar() {
               : 'hidden'
           }`}
         >
-          <div className='flex flex-col items-center justify-center space-y-4'>
-            <div className='flex justify-start'>
-              <Link href='/'>Home</Link>
+          <div
+            className='flex flex-col items-center justify-center space-y-4'
+            onClick={handleClick}
+          >
+            <div>
+              <Link href='/skills'>Skills</Link>
             </div>
             <div>
-              <Link href='projects'>Projects</Link>
+              <Link href='/projects'>Projects</Link>
+            </div>
+            <div className=''>
+              <Link href='/about'>About</Link>
             </div>
             <div>
-              <Link href='/'>Skills</Link>
-            </div>
-            <div>
-              <Link href='/'>About</Link>
+              <Link href='/contact'>Contact</Link>
             </div>
           </div>
         </div>

@@ -16,6 +16,7 @@ module.exports = {
         sunlight: '#FBD38D',
         purple: '#6B46C1',
         teal: '#88CCCA',
+        'light-teal': '#A7D8D6',
         'dark-teal': '#2C7A7A',
         blue: '#2D3748',
         'light-gray': '#313134',

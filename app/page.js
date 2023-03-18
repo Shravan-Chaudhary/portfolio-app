@@ -16,6 +16,7 @@ export default function Home() {
           alt='astro'
           height='auto'
           width='auto'
+          priority
           className=' object-contain astro h-32 sm:h-40 drop-shadow-lg'
         />
       </div>
@@ -30,7 +31,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='text-center sm:max-w-sm mx-auto'>
+        <div className='text-center sm:max-w-sm  mx-auto'>
           <p className='text-lg sm:mt-5 sm:text-xl '>
             Hello and welcome to my portfolio website! My name is Shravan and I
             am a web developer with a passion for creating useful Web
