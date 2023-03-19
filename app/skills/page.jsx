@@ -1,4 +1,3 @@
-import { Link } from 'next/link'
 import { Inter } from 'next/font/google'
 import { IoLogoHtml5 } from 'react-icons/io5'
 import { IoLogoCss3 } from 'react-icons/io5'
@@ -9,15 +8,16 @@ import { SiNextdotjs } from 'react-icons/si'
 import { FaGitAlt } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa'
 import { FaNpm } from 'react-icons/fa'
+import Button from '../components/Button'
 
 const inter = Inter({ subsets: ['latin'] })
 
-function page() {
+function Skills() {
   const style = { color: '#EDEDED' }
   return (
     <div className='max-w-xl mx-auto mt-24 h-full flex flex-col'>
       {/* Half Page Container */}
-      <div className='h-1/2 flex flex-col justify-center space-y-8 items-center'>
+      <div className='h-1/2 flex flex-col justify-center space-y-6 sm:space-y-8 items-center'>
         {/* Skills Heading Container */}
         <div className='w-fit backdrop-blur-lg mx-auto text-light-white drop-shadow-lg h-fit px-8 py-2 sm:px-12 text-center text-2xl opacity-95 space-y-2 border-b border-footer-color'>
           <h2 className='text-4xl font-semibold'>Skills</h2>
@@ -63,14 +63,12 @@ function page() {
           <FaNpm className='style={style} w-12 h-12 sm:w-16 sm:h-16' />
         </div>
         {/* Projects Button Container */}
-        <div className='flex w-full items-center justify-center pt-10'>
-          <button className='rounded-md bg-teal py-2 px-8 font-semibold text-dark-bg hover:bg-dark-teal'>
-            Projects
-          </button>
+        <div className='flex w-full items-center justify-center pt-5 sm:pt-10'>
+          <Button>Projects</Button>
         </div>
       </div>
     </div>
   )
 }
 
-export default page
+export default Skills

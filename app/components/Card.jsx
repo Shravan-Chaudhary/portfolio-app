@@ -15,11 +15,14 @@ function Card() {
     // Card Container
     <div className=' max-w-xl h-2/6 border border-footer-color opacity-95  space-y-2 rounded-t-md rounded-b-md'>
       {/* Card Heading Container */}
-      <div className='flex space-x-3 bg-sunlight text-center p-3 sm:p-6 px-24 sm:px-36 rounded-t-md'>
-        <h3 className='text-dark-bg text-2xl font-semibold sm:font-bold'>
+      <div className='flex space-x-3 bg-sunlight text-center p-3 sm:p-6 px-16 sm:px-36 rounded-t-md'>
+        <h3 className='text-dark-bg text-xl sm:text-2xl font-semibold sm:font-bold'>
           Oh, My Garments!
         </h3>
-        <AiOutlineShoppingCart style={cartStyle} className='w-8 h-8' />
+        <AiOutlineShoppingCart
+          style={cartStyle}
+          className='w-6 h-6 sm:w-8 sm:h-8'
+        />
       </div>
 
       {/* Card Below Heading Container */}
@@ -56,10 +59,10 @@ function Card() {
               Stack Used
             </h3> */}
             <div className='flex space-x-3 justify-center pt-3 flex-wrap '>
-              <TbBrandJavascript className='w-8 h-8 sm:w-12 sm:h-12' />
-              <FaReact className='w-8 h-8 sm:w-12 sm:h-12' />
-              <SiFirebase className='w-8 h-8 sm:w-12 sm:h-12' />
-              <SiStyledcomponents className='w-8 h-8 sm:w-12 sm:h-12' />
+              <TbBrandJavascript className='w-6 h-6 sm:w-12 sm:h-12' />
+              <FaReact className='w-6 h-6 sm:w-12 sm:h-12' />
+              <SiFirebase className='w-6 h-6 sm:w-12 sm:h-12' />
+              <SiStyledcomponents className='w-6 h-6 sm:w-12 sm:h-12' />
             </div>
           </div>
         </div>

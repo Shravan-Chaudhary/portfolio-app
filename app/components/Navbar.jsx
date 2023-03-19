@@ -28,6 +28,12 @@ function Navbar() {
         <div className=' flex space-x-8'>
           <div className='hidden md:inline-flex items-center space-x-6 text-xl'>
             <Link
+              href='/about'
+              className='hover:underline focus:bg-teal p-2 rounded-md focus:text-dark-bg '
+            >
+              About
+            </Link>
+            <Link
               href='/skills'
               className='hover:underline focus:bg-teal p-2 rounded-md focus:text-dark-bg '
             >
@@ -40,7 +46,7 @@ function Navbar() {
               Projects
             </Link>
             <Link
-              href='/projects'
+              href='/contact'
               className='hover:underline focus:bg-teal p-2 rounded-md focus:text-dark-bg'
             >
               Contact
@@ -69,14 +75,14 @@ function Navbar() {
             className='flex flex-col items-center justify-center space-y-4'
             onClick={handleClick}
           >
+            <div className=''>
+              <Link href='/about'>About</Link>
+            </div>
             <div>
               <Link href='/skills'>Skills</Link>
             </div>
             <div>
               <Link href='/projects'>Projects</Link>
-            </div>
-            <div className=''>
-              <Link href='/about'>About</Link>
             </div>
             <div>
               <Link href='/contact'>Contact</Link>

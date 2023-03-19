@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from '../components/Card'
 
-function page() {
+function Projects() {
   return (
     // Full Page Container
     <div className='flex flex-col max-w-xl mx-auto mt-24 h-full justify-center space-y-8 items-center'>
@@ -18,4 +18,4 @@ function page() {
   )
 }
 
-export default page
+export default Projects
