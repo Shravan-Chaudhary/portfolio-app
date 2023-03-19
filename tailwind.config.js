@@ -14,6 +14,7 @@ module.exports = {
         'dark-bg': '#202023',
         'light-white': '#EDEDED',
         sunlight: '#FBD38D',
+        'light-sunlight': '#F6E5B7',
         purple: '#6B46C1',
         teal: '#88CCCA',
         'light-teal': '#A7D8D6',

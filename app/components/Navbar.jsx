@@ -10,7 +10,7 @@ import { TbMenu2 } from 'react-icons/tb'
 
 function Navbar() {
   const [navbar, setNavbar] = useState(false)
-  const style = { color: '#202023' }
+  const lightIconstyle = { color: '#202023' }
 
   const handleClick = () => {
     setNavbar(!navbar)
@@ -48,7 +48,7 @@ function Navbar() {
           </div>
           <div className='space-x-3'>
             <button className='bg-sunlight p-3 rounded-md'>
-              <MdLightMode style={style} />
+              <MdLightMode style={lightIconstyle} />
             </button>
             <button
               className='sm:hidden bg-dark-bg p-3 rounded-md border-gray-500 border-2'

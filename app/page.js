@@ -21,9 +21,10 @@ export default function Home() {
         />
       </div>
 
+      {/* Intro Heading Container */}
       <div className='h-3/4 mt-8 sm:mt-10 px-4 items-center space-y-8'>
         <div>
-          <div className='w-fit backdrop-blur-lg mx-auto  text-light-white drop-shadow-lg h-fit px-10 py-3 sm:px-20 text-center text-2xl rounded-md opacity-95 space-y-2 border border-gray-200'>
+          <div className='w-fit backdrop-blur-lg mx-auto  text-light-white drop-shadow-lg h-fit px-12 sm:px-14 py-3 text-center text-2xl rounded-md opacity-95 space-y-2 border border-gray-200'>
             <h2 className='text-4xl sm:text-5xl'>{`Hi, I'm Shravan`}</h2>
             <p className='text-sm sm:text-xl'>
               (Full Stack Web Developer)
@@ -31,13 +32,15 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='text-center sm:max-w-sm  mx-auto'>
-          <p className='text-lg sm:mt-5 sm:text-xl '>
+        {/* Paragraph Container */}
+        <div className='text-justify sm:max-w-md  mx-auto px-4 sm:px-4'>
+          <p className='text-lg sm:mt-5 sm:text-xl font-light sm:font-normal sm:leading-8 '>
             Hello and welcome to my portfolio website! My name is Shravan and I
             am a web developer with a passion for creating useful Web
             Applications.
           </p>
         </div>
+
         {/* Skills, Projects Buttons Container */}
         <div className='flex px-5 justify-evenly mt-5'>
           <div className='py-3'>
