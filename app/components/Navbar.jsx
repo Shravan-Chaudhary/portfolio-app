@@ -11,7 +11,7 @@ import { TbMenu2 } from 'react-icons/tb'
 
 function Navbar() {
   const [navbar, setNavbar] = useState(false)
-  const [colorMode, setColorMode] = useColorMode()
+  const [colorMode, setColorMode] = useColorMode('dark')
   const lightIconstyle = { color: '#202023' }
   const darkIconstyle = { color: '#6B46C1' }
   const menuStyle = { color: '#313134' }

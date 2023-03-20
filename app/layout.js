@@ -10,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en' className='scroll-smooth'>
-      <body className='dark sm:bg-dark-bg'>
+      <body className='bg-body-color'>
         <Navbar />
         {children}
         {/* <Footer /> */}
