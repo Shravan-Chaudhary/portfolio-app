@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className='max-w-xl mx-auto mt-16 h-full flex flex-col bg-body-color dark:bg-dark-bg'>
+    <div className='max-w-xl mx-auto pt-16 h-full flex flex-col bg-body-color dark:bg-dark-bg'>
       <div className='h-1/4 px-4 mt-14 items-center'>
         <Image
           src={astro}
