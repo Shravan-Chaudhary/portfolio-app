@@ -9,7 +9,7 @@ function Form() {
         <div className='flex flex-col space-y-1'>
           <label
             htmlFor='name'
-            className='text-xl sm:text-2xl text-light-white'
+            className='text-xl sm:text-2xl text-dark-bg dark:text-light-white'
           >
             Name
           </label>
@@ -26,7 +26,7 @@ function Form() {
         <div className='flex flex-col space-y-1'>
           <label
             htmlFor='email'
-            className=' text-xl sm:text-2xl text-light-white'
+            className=' text-xl sm:text-2xl text-dark-bg dark:text-light-white'
           >
             Email
           </label>
@@ -43,7 +43,7 @@ function Form() {
         <div className='flex flex-col space-y-1'>
           <label
             htmlFor='message'
-            className='text-xl sm:text-2xl text-light-white'
+            className='text-xl sm:text-2xl text-dark-bg dark:text-light-white'
           >
             Message
           </label>

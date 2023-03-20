@@ -8,6 +8,8 @@ module.exports = {
     // Or if using `src` directory:
     './src/**/*.{js,ts,jsx,tsx}',
   ],
+
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
@@ -15,6 +17,11 @@ module.exports = {
         'light-white': '#EDEDED',
         sunlight: '#FBD38D',
         'light-sunlight': '#F6E5B7',
+        'nav-color': '#F4EDE4',
+        'body-color': '#f0e7db',
+        'menu-color': '#FFFFFF',
+        'menu-button-color': '#E2E8F0',
+        menu: '#E2E8F0',
         purple: '#6B46C1',
         pink: '#FF63C3',
         teal: '#88CCCA',

@@ -8,7 +8,7 @@ import { AiOutlineShoppingCart } from 'react-icons/ai'
 import Link from 'next/link'
 
 function Card() {
-  const style = { color: '#EDEDED' }
+  const style = { color: '' }
   const cartStyle = { color: '#202023' }
 
   return (
@@ -28,7 +28,7 @@ function Card() {
       {/* Card Below Heading Container */}
       <div className='p-2 px-3 space-y-2 sm:space-y-3'>
         {/*  Paragraph Container */}
-        <div className=''>
+        <div className='text-dark-bg dark:text-light-white'>
           <p className='leading-relaxed text-md sm:text-lg'>
             Oh, My Garments! is a full-stack e-commerce store with a firebase
             backend and stripe payment integration.
@@ -38,7 +38,7 @@ function Card() {
         {/* Features and Stack Container */}
         <div className='flex justify-center space-x-6 sm:space-x-10'>
           {/* Features Container */}
-          <div className=''>
+          <div className='text-dark-bg dark:text-light-white'>
             <h3 className='font-semibold text-xl sm:text-2xl'>Features</h3>
             {/* <hr className='w-24 h-px bg-footer-color' /> */}
             <ul className='px-4'>
@@ -59,10 +59,10 @@ function Card() {
               Stack Used
             </h3> */}
             <div className='flex space-x-3 justify-center pt-3 flex-wrap '>
-              <TbBrandJavascript className='w-6 h-6 sm:w-12 sm:h-12' />
-              <FaReact className='w-6 h-6 sm:w-12 sm:h-12' />
-              <SiFirebase className='w-6 h-6 sm:w-12 sm:h-12' />
-              <SiStyledcomponents className='w-6 h-6 sm:w-12 sm:h-12' />
+              <TbBrandJavascript className='w-6 h-6 sm:w-12 sm:h-12 fill-light-gray dark:fill-dark-bg  dark:bg-dark-bg' />
+              <FaReact className='w-6 h-6 sm:w-12 sm:h-12 fill-light-gray dark:fill-light-white dark:bg-inherit' />
+              <SiFirebase className='w-6 h-6 sm:w-12 sm:h-12 fill-light-gray dark:fill-light-white dark:bg-inherit' />
+              <SiStyledcomponents className='w-6 h-6 sm:w-12 sm:h-12 fill-light-gray dark:fill-light-white dark:bg-inherit' />
             </div>
           </div>
         </div>
